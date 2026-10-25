@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Motor Malang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">OtoRent<span>Malang</span></div>
+    
+    <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#koleksi">Koleksi Motor</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+
+    <!-- Tombol Dark Mode -->
+    <button id="toggle-dark" class="btn-dark-mode">🌙 Dark Mode</button>
+</nav>
+
+    <section id="beranda" class="hero">
+        <h2>Jelajahi Malang dengan Mudah</h2>
+        <p>Sewa motor murah, aman, dan terpercaya untuk perjalanan wisatamu di Kota Malang dan Batu.</p>
+    </section>
+
+    <section id="koleksi" class="armada">
+        <h2>Pilihan Motor Kami</h2>
+        <div class="grid-motor">
+    <div class="card-motor">
+        <!-- Tambahan tag img untuk gambar Beat -->
+        <img src="images/beat.jpg" alt="Honda Beat 2023" class="img-motor">
+        <h3>Honda Beat 2023</h3>
+        <p>Rp 70.000 / Hari</p>
+        <button class="btn-pesan" data-motor="Honda Beat">Pesan Sekarang</button>
+    </div>
+    <div class="card-motor">
+        <!-- Tambahan tag img untuk gambar NMAX -->
+        <img src="images/nmax.jpg" alt="Yamaha NMAX" class="img-motor">
+        <h3>Yamaha NMAX</h3>
+        <p>Rp 120.000 / Hari</p>
+        <button class="btn-pesan" data-motor="Yamaha NMAX">Pesan Sekarang</button>
+    </div>
+    <div class="card-motor">
+        <!-- Tambahan tag img untuk gambar Vario -->
+        <img src="images/vario.jpg" alt="Honda Vario 125" class="img-motor">
+        <h3>Honda Vario 125</h3>
+        <p>Rp 85.000 / Hari</p>
+        <button class="btn-pesan" data-motor="Honda Vario">Pesan Sekarang</button>
+    </div>
+</div>
+    </section>
+
+   <footer id="kontak">
+    <div class="kontak-info">
+        <h2>Hubungi Kami</h2>
+        <p>Punya pertanyaan atau ingin langsung menyewa? Chat admin kami sekarang.</p>
+       <a href="https://wa.me/6281234567890?text=Halo%20min,%20saya%20mau%20sewa%20motor" target="_blank" class="btn-whatsapp">
+            <span class="icon-wa">💬</span> Chat via WhatsApp
+        </a>
+    </div>
+    <div class="copyright">
+        <p>&copy; <span id="tahun"></span> Rental Motor Malang. Tugas Mahasiswa Semester 5.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
